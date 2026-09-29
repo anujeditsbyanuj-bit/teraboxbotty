@@ -2,14 +2,14 @@ require('dotenv').config();
 
 module.exports = {
   // Telegram Bot Token
-  BOT_TOKEN: process.env.BOT_TOKEN || '8730987422:AAGZRo5MoD28TrCkQzRUbxkE7Wou-lkxuhA',
+  BOT_TOKEN: process.env.BOT_TOKEN || '8904894149:AAG0MD1Akch80zS7myzvK1pG_qMelckv3rQ',
 
   // Firebase Realtime Database URL
   FIREBASE_DB_URL: (process.env.FIREBASE_DB_URL || 'https://shinzoverseapk-default-rtdb.firebaseio.com').replace(/\/+$/, ''),
 
   // UPI Monetization Details (ShinzoAuto)
   UPI: {
-    VPA: process.env.UPI_VPA || 'pawanponnam@okicici',
+    VPA: process.env.UPI_VPA || '971916880@ybl',
     NAME: process.env.UPI_NAME || 'TeraBoxBot',
   },
 
@@ -75,7 +75,7 @@ module.exports = {
   TELEGRAM_API_ROOT: process.env.TELEGRAM_API_ROOT || undefined,
 
   // Admin Telegram User IDs (comma-separated, e.g. "123456789,987654321")
-  ADMIN_IDS: (process.env.ADMIN_IDS || '8730987422')
+  ADMIN_IDS: (process.env.ADMIN_IDS || '8729304171')
     .split(',')
     .map((id) => id.trim())
     .filter(Boolean),
