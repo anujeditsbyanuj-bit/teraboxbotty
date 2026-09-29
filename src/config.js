@@ -89,4 +89,8 @@ module.exports = {
 
   // Cloudflare Proxy Base URL
   PROXY_BASE_URL: process.env.PROXY_BASE_URL || 'https://tbx-proxy.shakir-ansarii075.workers.dev/',
+
+  // Optional DiskWala extraction API
+  DISKWALA_API_URL: (process.env.DISKWALA_API_URL || 'https://api.diskwala.in/api/v1/diskwala/extract').replace(/\/+$/, ''),
+  DISKWALA_API_KEY: process.env.DISKWALA_API_KEY || '6a153c777996306c22105589',
 };
